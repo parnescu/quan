@@ -1,0 +1,23 @@
+{
+  "name": "QuanTemplate_Dependencies",
+  "version": "1",
+  "description": "installs dependencies needed for the test",
+  "authors": [
+    "Parnescu Adrian"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies":{
+    "jquery": "*"
+    ,"underscore": "*"
+    ,"backbone": "*"
+    ,"jasmine": "*"
+  }
+}

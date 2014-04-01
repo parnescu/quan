@@ -1,0 +1,14 @@
+doctype 5
+html
+	head
+		title Testing
+		link(rel='stylesheet', href='/css/style.css')
+		// fake fav icon to prevent further requests (it's annoying in the nodejs console)
+		link(rel="shortcut icon", href="data:image/x-icon;,", type="image/x-icon")
+	body
+		header 
+			h1 Company Data Browser
+		block content
+		footer
+			p &copy; !{new Date().getFullYear()}
+			script(src="/grunt-contrib-requirejs/node_modules/requirejs/require.js" data-main="/js/bootstrap.js")

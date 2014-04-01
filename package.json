@@ -1,0 +1,28 @@
+{
+  "name": "QuanTemplate_Test",
+  "author": "Parnescu Adrian",
+  "appName": "quantemplate",
+  "description":"Single Page Application (SPA) Test for QuanTemplate.com",
+  "version": "0.5.1",
+  "private": true,
+  "scripts": {
+    "install": "bower install",
+    "start": "node-dev server.js"
+  },
+  "dependencies": {
+    "express": "*"
+    ,"jade": "*"
+    ,"node-dev": "*"
+    ,"grunt-cli": "*"
+  },
+  "devDependencies": {
+    "bower": "*"
+    ,"grunt": "*"
+    ,"grunt-contrib-jshint": "*"
+    ,"grunt-contrib-uglify": "*"
+    ,"grunt-contrib-clean": "*"
+    ,"grunt-contrib-copy": "*"
+    ,"grunt-contrib-concat": "*"
+    ,"grunt-contrib-requirejs": "*"
+  }
+}

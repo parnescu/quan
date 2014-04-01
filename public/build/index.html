@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Testing - BUILD</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- fake fav icon to prevent further requests -->
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+</head>
+<body>
+	<header>
+		<h1>Company Data Browser</h1>
+	</header>
+	<section id="main">
+		<div id="content"></div>
+	</section>
+	<footer>
+		<p>&copy; 2013</p>
+		<script src="quantemplate.min.js"></script>
+		<script>
+			requirejs(['quanTemplate'], function(app){
+				var _quan = new app({data: _quanDummyData});
+			});
+		</script>
+	</footer>
+</body>
+</html>
